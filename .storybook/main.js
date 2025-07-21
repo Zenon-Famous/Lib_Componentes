@@ -17,10 +17,6 @@ export default {
   viteFinal: async (config) => {
     config.resolve = {
       ...config.resolve,
-      alias: {
-        ...(config.resolve?.alias || {}),
-        os: 'os-browserify/browser.js',
-      },
     };
     return config;
   },
