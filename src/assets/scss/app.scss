@@ -1,0 +1,20 @@
+@use "bootstrap" with (
+  $enable-negative-margins: true
+);
+@use "globals" as *;
+@use "variables" as *;
+@use "mixins" as *;
+
+@include generate-bg-classes($stone-colors, "stone");
+@include generate-bg-classes($ice-colors, "ice");
+@include generate-bg-classes($water-colors, "water");
+@include generate-bg-classes($clay-colors, "clay");
+@include generate-bg-classes($adobe-colors, "adobe");
+@include generate-bg-classes($gray-colors, "gray");
+
+@include generate-color-classes($stone-colors, "stone");
+@include generate-color-classes($ice-colors, "ice");
+@include generate-color-classes($water-colors, "water");
+@include generate-color-classes($clay-colors, "clay");
+@include generate-color-classes($adobe-colors, "adobe");
+@include generate-color-classes($gray-colors, "gray");

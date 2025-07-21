@@ -1,0 +1,132 @@
+.bg-top-bars {
+  background: var(--bg-top-bar);
+}
+
+:deep(.ck-balloon-panel_visible) {
+  display: none !important;
+}
+
+.blackAndWhite {
+  color: var(--text-black-white);
+}
+
+.btn-size {
+  width: 140px;
+}
+.btn {
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.btn-outline-success {
+  border-color: rgb(0, 255, 21);
+  color: #000;
+}
+
+.text-success {
+  color: rgb(0, 230, 19) !important;
+}
+
+.icon {
+  color: var(--bs-emphasis-color) !important;
+  &.opacity {
+    opacity: 0.5;
+  }
+}
+
+.table-color {
+  color: var(--bs-table-color);
+}
+
+.btn-no-borders {
+  background: transparent;
+  border: none;
+}
+
+.el-select__tags,
+.el-tag--info {
+  background-color: transparent !important;
+}
+
+.borders-tables {
+  box-shadow: var(--shadow) !important;
+  border-radius: 8px 8px 0 0;
+  &.radio {
+    border-radius: 0 0 0 0 !important;
+  }
+}
+
+.table-scroll {
+  max-height: 58vh;
+  overflow-y: scroll;
+  position: relative !important;
+  @media screen and (min-width: 1600px) {
+    max-height: 65vh;
+  }
+  @media screen and (min-width: 1900px) {
+    max-height: 75vh;
+  }
+}
+
+.header-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--admin-header-template-title-color);
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+.table-head-fixed {
+  position: sticky;
+  background-color: var(--bs-body-bg);
+  z-index: 1;
+  top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.container {
+  @media screen and (min-width: 1600px) {
+    max-width: 90%;
+  }
+}
+
+.ck-powered-by {
+  display: none !important;
+}
+
+.el-table {
+  font-size: 16px !important;
+  thead {
+    color: var(--text-black-white) !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+  }
+}
+
+.btn-primary-fig {
+  background-color: #00b1d0;
+  border: 1px solid #00b1d0;
+  transition: filter 1s;
+  color: #fff;
+  &:hover {
+    background-color: #00b1d0;
+    border: 1px solid #00b1d0;
+    outline: none;
+    filter: brightness(80%);
+  }
+}

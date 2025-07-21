@@ -1,0 +1,21 @@
+@mixin generate-bg-classes($colors, $colorText) {
+  @each $key, $color in $colors {
+    .bg-#{$colorText}-#{$key} {
+      background-color: #{$color};
+    }
+  }
+}
+
+@mixin generate-color-classes($colors, $colorText) {
+  @each $key, $color in $colors {
+    .color-#{$colorText}-#{$key} {
+      color: #{$color};
+    }
+  }
+}
+
+@mixin breakpoint-sm {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
