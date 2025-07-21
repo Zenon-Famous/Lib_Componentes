@@ -19,9 +19,9 @@ A modular, testable, and fully documented **Vue 3 component library** featuring 
 ## 📦 Installation
 
 ```bash
-npm install
+npm install like_lib_crm
 # or
-yarn install
+yarn install like_lib_crm
 ```
 
 ---
@@ -66,7 +66,7 @@ Register the library globally in your Vue app:
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router'; // your Vue Router instance
-import MyLibrary from 'like-lib-crm';
+import MyLibrary from 'like_lib_crm';
 import 'my-vue-library/dist/style.css';
 
 // VueTheMask (already used by the lib, but you can also use it globally if needed)
@@ -93,7 +93,7 @@ app.mount('#app');
 ## 🧠 Using Utility Functions
 
 ```js
-import { phoneFormatter, isEmail, validateForm } from 'like-lib-crm';
+import { phoneFormatter, isEmail, validateForm } from 'like_lib_crm';
 
 console.log(phoneFormatter('+5511999998888')); // +55 (11) 99999-8888
 console.log(isEmail('test@example.com')); // true
