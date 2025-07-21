@@ -63,7 +63,6 @@ const props = defineProps({
   }
 });
 
-// eslint-disable-next-line no-unused-vars
 const personalBox = {
   transform: "scaleY(0.4)",
   height: "100%",

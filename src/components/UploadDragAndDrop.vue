@@ -112,8 +112,8 @@ const props = defineProps({
 });
 
 const inputFile = ref(null);
-const innerValue = ref([...props.modelValue]);  // <<< inicialização corrigida
-const filesList = ref([...props.modelValue]);   // <<< inicialização corrigida
+const innerValue = ref([...props.modelValue]);  
+const filesList = ref([...props.modelValue]);  
 
 watch(innerValue, (newV) => {
   emitOptions("update:modelValue", newV);

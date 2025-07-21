@@ -134,7 +134,7 @@ function prev() {
   }
 }
 
-// Estilos dinâmicos para botões
+
 const buttonStyle = computed(() => ({
   color: props.color,
   border: "none",
