@@ -1,66 +1,131 @@
 import ChatMessage from '../../src/components/ChatMessageView.vue';
-import { h } from "vue";
+import { h } from 'vue';
 
-const MockAccountCircle = {
-  name: "MockAccountCircle",
+// Ícones mock
+const DummyIcon = {
   render() {
-    return h("span", { style: { fontSize: "24px", color: "gray" } }, "👤");
-  },
-};
-const MockDownloadIcon = {
-  name: "MockDownloadIcon",
-  render() {
-    return h("span", { style: { fontSize: "18px", color: "blue" } }, "⬇️");
+    return h('span', { class: 'material-symbols-sharp' }, 'face');
   },
 };
 
 export default {
-  title: "Chat/ChatMessage",
+  title: 'Components/ChatMessage',
   component: ChatMessage,
-  argTypes: {
-    accountCircleIcon: { control: false },
-    downloadIcon: { control: false },
-    message: { control: false },
-  },
 };
 
-const baseMessageText = {
-  Type: "Text",
-  Message: "Olá, *mundo*! `Código` e _italico_ também.",
-  Direction: "Inbound",
-  Participant: { NickName: "Cliente" },
+const baseMessage = {
+  Participant: { NickName: 'João' },
   ReceivedTime: new Date().toISOString(),
+  Direction: 'Inbound',
 };
 
-const baseMessageAttachment = {
-  Type: "Attachment",
-  MimeType: "audio/mpeg",
-  MediaType: "Audio",
-  URL: "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3",
-  Filename: "audio.mp3",
-  Caption: "Arquivo de áudio",
-  Direction: "Outbound",
-  Participant: { Name: "Agente" },
-  ReceivedTime: new Date().toISOString(),
-};
-
-const Template = (args) => ({
+export const TextoSimples = () => ({
   components: { ChatMessage },
-  setup() {
-    return { args };
+  template: '<ChatMessage :message="message" />',
+  data() {
+    return {
+      message: {
+        ...baseMessage,
+        Type: 'Text',
+        Message: 'Olá, tudo bem?',
+      },
+    };
   },
-  template: `<ChatMessage v-bind="args" />`,
 });
 
-export const TextMessage = Template.bind({});
-TextMessage.args = {
-  message: baseMessageText,
-  accountCircleIcon: MockAccountCircle,
-};
+export const TextoComMarkdown = () => ({
+  components: { ChatMessage },
+  template: '<ChatMessage :message="message" />',
+  data() {
+    return {
+      message: {
+        ...baseMessage,
+        Type: 'Text',
+        Message: '> Citação\n*Negrito* _Itálico_ `Código` ~Riscado~',
+      },
+    };
+  },
+});
 
-export const AttachmentAudio = Template.bind({});
-AttachmentAudio.args = {
-  message: baseMessageAttachment,
-  accountCircleIcon: MockAccountCircle,
-  downloadIcon: MockDownloadIcon,
-};
+export const Imagem = () => ({
+  components: { ChatMessage },
+  template: '<ChatMessage :message="message" />',
+  data() {
+    return {
+      message: {
+        ...baseMessage,
+        Type: 'Attachment',
+        MimeType: 'image/png',
+        URL: 'https://via.placeholder.com/200',
+        Caption: 'Exemplo de imagem',
+      },
+    };
+  },
+});
+
+export const Audio = () => ({
+  components: { ChatMessage },
+  template: '<ChatMessage :message="message" />',
+  data() {
+    return {
+      message: {
+        ...baseMessage,
+        Type: 'Attachment',
+        MimeType: 'audio/mpeg',
+        URL: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+        Caption: 'Exemplo de áudio',
+        MediaType: 'Audio',
+      },
+    };
+  },
+});
+
+export const Video = () => ({
+  components: { ChatMessage },
+  template: '<ChatMessage :message="message" />',
+  data() {
+    return {
+      message: {
+        ...baseMessage,
+        Type: 'Attachment',
+        MimeType: 'video/mp4',
+        URL: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        Caption: 'Exemplo de vídeo',
+      },
+    };
+  },
+});
+
+export const Documento = () => ({
+  components: { ChatMessage },
+  template: '<ChatMessage :message="message" />',
+  data() {
+    return {
+      message: {
+        ...baseMessage,
+        Type: 'Attachment',
+        MimeType: 'application/pdf',
+        URL: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+        Filename: 'documento.pdf',
+        Caption: 'Exemplo de documento',
+      },
+    };
+  },
+});
+
+export const DeAgente = () => ({
+  components: { ChatMessage },
+  template: '<ChatMessage :message="message" :accountCircleIcon="icon" :downloadIcon="icon" />',
+  data() {
+    return {
+      icon: DummyIcon,
+      message: {
+        ...baseMessage,
+        Direction: 'Outbound',
+        Type: 'Text',
+        Message: 'Mensagem do agente com ícone customizado.',
+        Participant: { Name: 'Agente' },
+      },
+    };
+  },
+});
