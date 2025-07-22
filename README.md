@@ -124,4 +124,3 @@ console.log(isEmail('test@example.com')); // true
 
 ---
 
-> Built with ❤️ by your team.
