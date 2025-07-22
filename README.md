@@ -56,7 +56,7 @@ Generate static Storybook build:
 npm run build-storybook
 ```
 ---
-# Peer Dependencies
+## 📥 Peer Dependencies
 
 The `like_lib_crm` library depends on the following packages, which must be installed manually in your project:
 
