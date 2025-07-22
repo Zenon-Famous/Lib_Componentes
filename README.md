@@ -71,7 +71,7 @@ To install all at once, run:
 
 ```bash
 npm install vue vue-router vue-the-mask plyr
-
+```
 ---
 
 ## 🔌 Plugin Registration
