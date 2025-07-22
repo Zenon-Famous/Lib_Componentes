@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import month3year4 from '../../src/utils/formatter/monthYearFormatter.js';
+import month3year4 from '@/utils/formatter/monthYearFormatter.js';
 
 export default {
   title: 'Functions/formatter/month3year4',

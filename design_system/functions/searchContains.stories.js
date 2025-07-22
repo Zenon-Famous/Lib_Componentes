@@ -1,5 +1,5 @@
 import { ref, watch } from 'vue';
-import searchContains from '../../src/composables/useSearch/searchContains'; 
+import searchContains from '@/composables/useSearch/searchContains'; 
 
 export default {
   title: 'Functions/composables/searchContains',

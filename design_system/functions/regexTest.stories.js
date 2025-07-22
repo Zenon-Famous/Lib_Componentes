@@ -1,5 +1,5 @@
 import { ref, defineComponent } from 'vue'
-import regexTest from '../../src/utils/helpers/regexTest.js'
+import regexTest from '@/utils/helpers/regexTest.js'
 
 export default {
   title: 'Functions/helpers/regexTest',

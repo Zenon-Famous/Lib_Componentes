@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import orderBy from '../../src/utils/helpers/orderBy.js'
+import orderBy from '@/utils/helpers/orderBy.js'
 
 export default {
   title: 'Functions/helpers/orderBy',

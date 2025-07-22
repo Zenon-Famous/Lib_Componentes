@@ -1,4 +1,4 @@
-import CardHome from '../../src/home/CardHome.vue';
+import CardHome from '@/home/CardHome.vue';
 
 const MyCustomIcon = {
   name: 'MyCustomIcon',

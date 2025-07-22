@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import isEmail from '../../src/utils/helpers/isEmail.js'
+import isEmail from '@/utils/helpers/isEmail.js'
 
 export default {
   title: 'Functions/helpers/isEmail',

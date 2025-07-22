@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import planObjectKeyAndValue from '../../src/utils/helpers/planObjectKeyAndValue.js';
+import planObjectKeyAndValue from '@/utils/helpers/planObjectKeyAndValue.js';
 
 export default {
   title: 'Functions/helpers/planObjectKeyAndValue',

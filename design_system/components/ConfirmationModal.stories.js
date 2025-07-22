@@ -1,4 +1,4 @@
-import ConfirmationModal from "../../src/components/ConfirmationModal.vue";
+import ConfirmationModal from "@/components/ConfirmationModal.vue";
 
 export default {
   title: 'Components/ConfirmationModal',

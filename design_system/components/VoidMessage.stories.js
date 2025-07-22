@@ -1,4 +1,4 @@
-import VoidMessage from "../../src/components/VoidMessage.vue";
+import VoidMessage from "@/components/VoidMessage.vue";
 
 export default {
   title: "Components/VoidMessage",

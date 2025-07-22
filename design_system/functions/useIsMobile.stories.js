@@ -1,5 +1,5 @@
-import { ref, onMounted, watch } from 'vue';
-import useIsMobile from '../../src/composables/useIsMobile';
+import { ref, watch } from 'vue';
+import useIsMobile from '@/composables/useIsMobile';
 
 export default {
   title: 'Functions/Hooks/useIsMobile',

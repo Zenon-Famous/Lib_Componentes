@@ -1,5 +1,5 @@
 import { ref, watch } from 'vue'
-import generateColors from '../../src/utils/helpers/generateColors.js'
+import generateColors from '@/utils/helpers/generateColors.js'
 
 export default {
   title: 'Functions/helpers/generateColors',

@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import isOnArray from '../../src/utils/helpers/isOnArray.js'
+import isOnArray from '@/utils/helpers/isOnArray.js'
 
 export default {
   title: 'Functions/helpers/isOnArray',

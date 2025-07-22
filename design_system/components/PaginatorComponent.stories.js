@@ -1,4 +1,4 @@
-import PaginatorComponent from "../../src/components/PaginatorComponent.vue";
+import PaginatorComponent from "@/components/PaginatorComponent.vue";
 
 export default {
   title: "Paginator/PaginatorComponent",

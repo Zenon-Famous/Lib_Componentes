@@ -1,4 +1,4 @@
-import DotPulseAnimation from '../../src/animations/DotPulseAnimation.vue';
+import DotPulseAnimation from '@/animations/DotPulseAnimation.vue';
 
 export default {
   title: 'Animations/DotPulseAnimation',

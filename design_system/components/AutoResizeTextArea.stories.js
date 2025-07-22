@@ -1,4 +1,4 @@
-import AutoResizeTextArea from '../../src/components/AutoResizeTextArea.vue';
+import AutoResizeTextArea from '@/components/AutoResizeTextArea.vue';
 
 export default {
   title: 'Components/AutoResizeTextArea',

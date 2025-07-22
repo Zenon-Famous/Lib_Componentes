@@ -1,4 +1,4 @@
-import ChatMessage from '../../src/components/ChatMessageView.vue';
+import ChatMessage from '@/components/ChatMessageView.vue';
 import { h } from 'vue';
 
 // Ícones mock

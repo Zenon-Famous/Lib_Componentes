@@ -1,4 +1,4 @@
-import AudioPlayer from "../../src/components/AudioPlayer.vue";
+import AudioPlayer from "@/components/AudioPlayer.vue";
 
 export default {
   title: "Audio/AudioPlayer",

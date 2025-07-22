@@ -1,4 +1,4 @@
-import AppBreadcrumb from '../../src/components/AppBreadcrumb.vue';
+import AppBreadcrumb from '@/components/AppBreadcrumb.vue';
 
 export default {
   title: 'Components/AppBreadcrumb',

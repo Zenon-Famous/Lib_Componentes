@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import searchLessThen from '../../src/composables/useSearch/searchLessThen';
+import searchLessThen from '@/composables/useSearch/searchLessThen';
 
 export default {
   title: 'Functions/composables/searchLessThen',

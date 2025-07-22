@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import timestamp from '../../src/utils/formatter/timestampFormatter.js'
+import timestamp from '@/utils/formatter/timestampFormatter.js'
 
 export default {
   title: 'Functions/formatter/timestamp',

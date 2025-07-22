@@ -1,5 +1,5 @@
 import { ref, watch } from 'vue';
-import searchDateIgual from '../../src/composables/useSearch/searchDateIgual';
+import searchDateIgual from '@/composables/useSearch/searchDateIgual';
 
 export default {
   title: 'Functions/composables/searchDateIgual',

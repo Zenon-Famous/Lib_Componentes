@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import formFields from '../../src/utils/helpers/formFields.js'
+import formFields from '@/utils/helpers/formFields.js'
 
 export default {
   title: 'Functions/helpers/formFields',

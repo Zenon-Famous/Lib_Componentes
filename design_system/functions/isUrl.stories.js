@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import isUrl from '../../src/utils/helpers/isUrl.js'
+import isUrl from '@/utils/helpers/isUrl.js'
 
 export default {
   title: 'Functions/helpers/isUrl',

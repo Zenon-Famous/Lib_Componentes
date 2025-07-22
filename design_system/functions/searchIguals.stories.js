@@ -1,5 +1,5 @@
 import { ref, watch } from 'vue';
-import searchIguals from '../../src/composables/useSearch/searchIguals';
+import searchIguals from '@/composables/useSearch/searchIguals';
 
 export default {
   title: 'Functions/composables/searchIguals',

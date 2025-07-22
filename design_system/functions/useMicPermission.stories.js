@@ -1,5 +1,5 @@
 import { ref, onMounted, watch } from 'vue';
-import useMicPermission from '../../src/composables/useMicPermission';
+import useMicPermission from '@/composables/useMicPermission';
 
 export default {
   title: 'Functions/Hooks/useMicPermission',

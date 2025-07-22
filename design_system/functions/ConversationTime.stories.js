@@ -1,5 +1,5 @@
 import { ref, onMounted, onUnmounted } from 'vue'
-import ConversationTime from '../../src/utils/timeFormatter/ConversationTime.js'
+import ConversationTime from '@/utils/timeFormatter/ConversationTime.js'
 
 export default {
   title: 'Functions/TimeFormatter/ConversationTime',

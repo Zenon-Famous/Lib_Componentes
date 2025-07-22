@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import validateForm from '../../src/utils/helpers/validateForm.js'
+import validateForm from '@/utils/helpers/validateForm.js'
 
 export default {
   title: 'Functions/helpers/validateForm',

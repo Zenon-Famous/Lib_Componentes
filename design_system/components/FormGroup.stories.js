@@ -1,4 +1,4 @@
-import FormGroup from '../../src/components/FormGroup.vue';
+import FormGroup from '@/components/FormGroup.vue';
 
 export default {
   title: 'Form/FormGroup',

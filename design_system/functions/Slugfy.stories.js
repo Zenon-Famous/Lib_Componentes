@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import Slugfy from '../../src/utils/helpers/Slugfy'
+import Slugfy from '@/utils/helpers/Slugfy'
 
 export default {
   title: 'Functions/helpers/Slugfy',

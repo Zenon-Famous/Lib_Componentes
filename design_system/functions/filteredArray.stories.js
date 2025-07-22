@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import filteredArray from '../../src/utils/helpers/filteredArray.js'
+import filteredArray from '@/utils/helpers/filteredArray.js'
 
 export default {
   title: 'Functions/helpers/filteredArray',

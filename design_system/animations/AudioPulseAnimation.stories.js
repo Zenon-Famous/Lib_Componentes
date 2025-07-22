@@ -1,4 +1,4 @@
-import AudioPulseAnimation from '../../src/animations/AudioPulseAnimation.vue';
+import AudioPulseAnimation from '@/animations/AudioPulseAnimation.vue';
 
 export default {
   title: 'Animations/AudioPulseAnimation',

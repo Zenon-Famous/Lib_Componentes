@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import phone from '../../src/utils/formatter/phoneFormatter.js'
+import phone from '@/utils/formatter/phoneFormatter.js'
 
 export default {
   title: 'Functions/formatter/phone',

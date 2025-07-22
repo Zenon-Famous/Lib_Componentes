@@ -1,5 +1,5 @@
-import RingAudio from '../../src/components/RingAudio.vue';
-import som from '../../src/assets/ring.wav'; 
+import RingAudio from '@/components/RingAudio.vue';
+import som from '@/assets/ring.wav'; 
 
 export default {
   title: 'Audio/RingAudio',

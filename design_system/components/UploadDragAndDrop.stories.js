@@ -1,4 +1,4 @@
-import UploadDragAndDrop from '../../src/components/UploadDragAndDrop.vue';
+import UploadDragAndDrop from '@/components/UploadDragAndDrop.vue';
 import { h } from 'vue';
 
 // Exemplo de ícones mock (substitua com seus próprios ícones reais ou componentes)

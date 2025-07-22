@@ -1,5 +1,5 @@
 import { ref, watch } from 'vue';
-import searchBiggerThen from '../../src/composables/useSearch/searchBiggerThen.js'; 
+import searchBiggerThen from '@/composables/useSearch/searchBiggerThen.js'; 
 
 export default {
   title: 'Functions/composables/searchBiggerThen',

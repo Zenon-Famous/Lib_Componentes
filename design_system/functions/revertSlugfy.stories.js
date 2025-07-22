@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import revertSlugfy from '../../src/utils/helpers/revertSlugfy'
+import revertSlugfy from '@/utils/helpers/revertSlugfy'
 
 export default {
   title: 'Functions/helpers/revertSlugfy',

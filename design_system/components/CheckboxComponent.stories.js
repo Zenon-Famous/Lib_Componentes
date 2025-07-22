@@ -1,4 +1,4 @@
-import CheckboxComponent from '../../src/profile/CheckboxComponent.vue';
+import CheckboxComponent from '@/profile/CheckboxComponent.vue';
 import { ref } from 'vue';
 
 export default {

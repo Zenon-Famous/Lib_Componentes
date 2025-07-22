@@ -1,4 +1,4 @@
-import DataView from "../../src/components/DataView.vue";
+import DataView from "@/components/DataView.vue";
 import { ref } from "vue";
 
 export default {

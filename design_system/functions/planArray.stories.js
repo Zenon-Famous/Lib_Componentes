@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import planArray from '../../src/utils/helpers/planArray.js'
+import planArray from '@/utils/helpers/planArray.js'
 
 export default {
   title: 'Functions/helpers/planArray',

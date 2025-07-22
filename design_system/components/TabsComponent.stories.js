@@ -1,4 +1,4 @@
-import TabsComponent from '../../src/profile/resume/TabsComponent.vue';
+import TabsComponent from '@/profile/resume/TabsComponent.vue';
 import { ref } from 'vue';
 
 export default {
