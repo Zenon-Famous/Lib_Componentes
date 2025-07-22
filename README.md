@@ -55,7 +55,9 @@ Generate static Storybook build:
 ```bash
 npm run build-storybook
 ```
+
 ---
+
 # Peer Dependencies
 
 The `like_lib_crm` library depends on the following packages, which must be installed manually in your project:
@@ -71,6 +73,7 @@ To install all at once, run:
 
 ```bash
 npm install vue vue-router vue-the-mask plyr
+```
 
 ---
 
